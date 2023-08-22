@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-10T10:15:25 IST" name="Suite" finished-at="2023-08-10T10:15:33 IST" duration-ms="8603">
+    <groups>
+      <group name="r">
+        <method signature="c3.launch()[pri:0, instance:p2.c3@1622f1b]" name="launch" class="p2.c3"/>
+      </group> <!-- r -->
+      <group name="t">
+        <method signature="c1.launch()[pri:0, instance:p1.c1@72a7c7e0]" name="launch" class="p1.c1"/>
+        <method signature="c2.launch()[pri:0, instance:p1.c2@35047d03]" name="launch" class="p1.c2"/>
+      </group> <!-- t -->
+    </groups>
+    <test started-at="2023-08-10T10:15:25 IST" name="Test" finished-at="2023-08-10T10:15:33 IST" duration-ms="8603">
+      <class name="p1.c1">
+        <test-method signature="launch()[pri:0, instance:p1.c1@72a7c7e0]" started-at="2023-08-10T10:15:25 IST" name="launch" finished-at="2023-08-10T10:15:32 IST" duration-ms="7187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- p1.c1 -->
+      <class name="p1.c2">
+        <test-method signature="launch()[pri:0, instance:p1.c2@35047d03]" started-at="2023-08-10T10:15:25 IST" name="launch" finished-at="2023-08-10T10:15:33 IST" duration-ms="8542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- p1.c2 -->
+      <class name="p2.c3">
+        <test-method signature="launch()[pri:0, instance:p2.c3@1622f1b]" started-at="2023-08-10T10:15:25 IST" name="launch" finished-at="2023-08-10T10:15:31 IST" duration-ms="6479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- p2.c3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
